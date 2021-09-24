@@ -46,7 +46,9 @@ pagamento para cada empregado desde a última vez em que este foi pago
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-**Code smells**: Aplicados na pasta employee
+**Code smells**: 
+
+Descrição: Aplicados na pasta employees, na pasta payments e na EmployeeMenu
 
 
 **Long Method**: Método editEmployee da classe EmployeeConf muito extensa; 
