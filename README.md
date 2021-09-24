@@ -1,6 +1,8 @@
 **Projeto para a disciplina projeto de software 2021.1**
 
-**Code smells**: Aplicado na pasta employee
+**Code smells**: Aplicados na pasta employee
+
+
 **Long Method**: Método editEmployee da classe EmployeeConf muito extensa; 
 **Unclear/Comments:**
 Nome dos métodos addCP--> addTimeCard;, adcrv-->addSaleReport;, addtx--> addServiceFee; Antes não estava explicado o que cada método fazia.
