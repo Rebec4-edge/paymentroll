@@ -4,6 +4,8 @@
 **Long Method**: Método editEmployee da classe EmployeeConf muito extensa; 
 **Unclear/Comments:**
 Nome dos métodos addCP--> addTimeCard;, adcrv-->addSaleReport;, addtx--> addServiceFee; Antes não estava explicado o que cada método fazia.
+
+
 **Strategy**: Haviam muitos IF's na main e nos tipos de empregados também. Consegui criar classes separadas para cada um deles e setar as funções.
 
 **Smells Simples**:  
