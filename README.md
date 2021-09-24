@@ -72,7 +72,7 @@ addtx--> addServiceFee
 
 
 **Outras alterações**:  
-Parte do código foi simplificada.  
+Parte do código foi simplificada;  
 Foram criados construtores para ajudar na alteração do tipo de empregado;
 
 
