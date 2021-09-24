@@ -1,7 +1,6 @@
 **Projeto para a disciplina projeto de software 2021.1**
 
-
-                      ***Sistema de Folha de Pagamento***
+***Sistema de Folha de Pagamento***
 O objetivo do projeto é construir um sistema de folha de pagamento. O sistema consiste do 
 gerenciamento de pagamentos dos empregados de uma empresa. Além disso, o sistema deve 
 gerenciar os dados destes empregados, a exemplo os cartões de pontos. Empregados devem receber 
