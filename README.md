@@ -76,6 +76,7 @@ addtx--> addServiceFee
 **Outras alterações**:  
 Parte do código foi simplificada;  
 Foram criados construtores para ajudar na alteração do tipo de empregado;
+Algumas funções SEM UTILIDADE de get() e set()foram deletadas.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
