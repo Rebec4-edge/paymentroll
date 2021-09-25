@@ -96,5 +96,5 @@ Descrição das funcionalidades do sistema
 | 7 | Rodar a folha de pagamento para hoje | FEITO |
 | 8 | Undo/redo| FEITO |
 | 9 | Agenda de Pagamento| FEITO |
-| 10 | Criação de Novas Agendas de Pagamento |  |
+| 10 | Criação de Novas Agendas de Pagamento | FEITO |
 
