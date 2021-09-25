@@ -28,7 +28,8 @@ public class PayrollSystem {
             System.out.println("6 - Editar um empregado");
             System.out.println("7 - Rodar folha de pagamento para hoje");
             System.out.println("8 - Undo/redo\n");
-            System.out.println("9 - Criar nova agenda de pagamento\n");
+            System.out.println("9 - Agenda de pagamento\n");
+            System.out.println("10 - Criar nova agenda de pagamento\n");
             System.out.println("0 - Sair.\n");
 
 
@@ -84,20 +85,26 @@ public class PayrollSystem {
                     break;
 
                 case 8:
-                    if(employeeList.isEmpty()){
-                        System.out.println("\nA lista de empregados está vazia\n");
-                    }else{
-                        PaymentConf.TodayPayroll(input, employeeList);
-                    }
-                    break;
+                    System.out.println("Undo/Redo");
+                	System.out.println("Informe o que deseja fazer: ");
+                	System.out.println("1 - Undo");
+                	System.out.println("2 - Redo");
+                	option = scanner.nextInt();
+                	int undoRedo;
+                	if(option == 1) {
+                		undoRedo = comando.undoCommand();
+                	} else if(option == 2) {
+                		undoRedo = comando.redoCommand();
+                	} else {
+                		System.out.println("Opção inválida!");
+                	} 
 
                 case 9:
-                    if(employeeList.isEmpty()){
-                        System.out.println("\nA lista de empregados está vazia\n");
-                    }else{
-                        PaymentConf.TodayPayroll(input, employeeList);
-                    }
-                    break;
+                    //não iniciado
+                case 10:
+                   //não iniciado
+                case 0:
+                    scanner.close();
                 default:
                     break;
             }
